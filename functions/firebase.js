@@ -1,20 +1,7 @@
-const admin = require('firebase-admin');
-const serviceAccount = require('./firebaseConfig.json');
 const moment = require('moment');
 const fetch = require('node-fetch');
-// const { firestore } = require('firebase-admin');
 
 class firebase {
-
-
-  // connect() {
-  //   try {
-  //     this.db = admin.firestore();
-  //     console.log('DB connected');
-  //   } catch (error) {
-  //     console.log('Something went wrong with the initalizing of firebase: ', error);
-  //   }
-  // }
 
   async getAllUsers(admin) {
     const db = admin.firestore()

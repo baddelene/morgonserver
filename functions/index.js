@@ -5,7 +5,6 @@ admin.initializeApp()
 
 exports.pushNotificationCheck = functions.runWith({memory: '2GB'}).pubsub.schedule('* * * * *').onRun(async() => {
   const fb = new firebase();
-  // fb.connect();
   fb.getAllUsers(admin);
-  return 'hello';
+  return 'Finished';
 })
