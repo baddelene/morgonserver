@@ -1,0 +1,17 @@
+{
+  "name": "morgonappen-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  }
+}

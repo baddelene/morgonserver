@@ -1,1 +1,1 @@
-# morgonserver
+## Firebase function for sending push notification
